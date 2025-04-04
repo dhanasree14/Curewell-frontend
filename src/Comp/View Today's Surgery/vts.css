@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .surgery-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+  }
+  
+  .surgery-table th, .surgery-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .surgery-table th {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .edit-btn {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-btn:hover {
+    background-color: black;
+  }
+  

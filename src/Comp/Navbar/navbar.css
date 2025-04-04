@@ -1,0 +1,35 @@
+.navbar {
+    display: flex !important;
+    align-items: center !important;
+    background-color: #c8d9e6 !important;
+    padding: 15px 30px !important;
+  }
+  
+  .navbar-brand {
+    font-family: Georgia, serif !important;
+    font-size: 32px !important;
+    font-weight: bold !important;
+    color: #2f4156 !important;
+    text-decoration: none !important;
+    margin-right: 70px; /* Push menu to right */
+  }
+  
+  .navbar-nav {
+    list-style: none !important;
+    display: flex !important;
+    gap: 30px !important; /* Increase spacing */
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .nav-item {
+    font-size: 18px !important;
+  }
+  
+  .nav-link {
+    text-decoration: none !important;
+    color: #2f4156 !important;
+    font-weight: bold !important;
+    padding: 10px 15px !important;
+  }
+  

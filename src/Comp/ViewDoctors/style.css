@@ -1,0 +1,43 @@
+.container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-table {
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+  }
+  
+  .doctor-table th,
+  .doctor-table td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .doctor-table th {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+
+  }
+  
+  .edit-button {
+    background-color: gray;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .edit-button:hover {
+    background-color: black;
+    color: white;
+  }
+  

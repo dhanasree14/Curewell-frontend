@@ -1,0 +1,59 @@
+.update-surgery-container {
+    text-align: center;
+    margin: 50px auto;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid;
+    border-radius: 8px;
+    background-color: #c8d9e6;
+  }
+  
+  .update-surgery-container h2 {
+    margin-bottom: 20px;
+  }
+  
+  .update-surgery-container label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .update-surgery-container input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .save-btn:hover {
+    background-color: #218838;
+  }
+  
+  .back-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .back-btn:hover {
+    background-color: #c82333;
+  }
+  

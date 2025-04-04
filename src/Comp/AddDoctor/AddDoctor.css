@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  label {
+    font-size: 18px;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .cancel {
+    color: blue;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
