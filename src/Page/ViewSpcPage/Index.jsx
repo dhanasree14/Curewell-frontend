@@ -1,15 +1,13 @@
-import { Routes, Route } from "react-router-dom";
+
 import ViewSpecialization from "../../Comp/ViewSpecializations/Index";
-import ViewDoctor from "../../Comp/ViewDoctors/Index";
+import Navbar from "../../Comp/Navbar/Index";
 
 const ViewSpcPage = () => {
     return (
       <>
 
-        <Routes>
-          <Route path="/view/spc" element={<ViewSpecialization />} />
-
-        </Routes>
+        <Navbar/>
+        <ViewSpecialization/>
       </>
     );
   };

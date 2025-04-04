@@ -1,16 +1,13 @@
-import { Routes, Route } from "react-router-dom";
 import AddDoctor from "../../Comp/AddDoctor/Index";
+import Navbar from "../../Comp/Navbar/Index";
 
 const AddDoctorPage = () => {
-    return (
-      <>
+  return (
+    <>
+      <Navbar />
+      <AddDoctor />
+    </>
+  );
+};
 
-        <Routes>
-          <Route path="/add/doctor" element={<AddDoctor />} />
-          
-        </Routes>
-      </>
-    );
-  };
-  
-  export default AddDoctorPage;
+export default AddDoctorPage;
